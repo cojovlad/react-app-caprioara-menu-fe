@@ -1,0 +1,31 @@
+/* Side Panel Styling */
+.side-panel {
+  position: fixed;
+  top: 0;
+  left: 0; /* Add left property to ensure the panel stays on the left */
+  width: 250px;
+  height: 100%; /* Full viewport height */
+  background-color: #333;
+  color: white;
+  padding-top: 50px; /* Add some padding to the top if needed */
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+}
+
+/* Side Panel Links Styling */
+.side-panel-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling for each link in the side panel */
+.side-panel-links li {
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* Hover effect for the list items */
+.side-panel-links li:hover {
+  background-color: #444;
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.mainpage {
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-color: darkgreen; /* Dark green background */
+  color: white; /* White text for contrast */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center;
+}
+
+.mainpage h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.mainpage p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
